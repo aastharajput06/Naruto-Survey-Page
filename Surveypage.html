@@ -1,0 +1,196 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>Survey Page</title>
+<link rel="stylesheet" type="text/css" href="surveypage.css">
+</head>
+<body>
+<link href="https://fonts.google.com/specimen/Lobster?query=lobster" rel="stylesheet" type="text/css">
+<h1 id="title">Naruto Fan Site Survey Form<h1>
+  <p id="description">Thank you for taking the time to help us improve the platform
+  </p>
+  
+  <form id="survey-form">
+    <label for="name" id="name-label">Name</label>
+    <div>
+      <input type="text"
+             name="name"
+             id="name"
+             placeholder="Enter Your Name Here" required>
+    </div>
+    
+    <label for="email"id="name-label">Email</label>
+    <div>
+    <input type="email"
+           name="email"
+           id="email"             
+           placeholder="naruto@example.com" required>
+    </div>
+    <label for="number" id="number-label">Age(optional)</label>
+    <div>
+    <input type="number" 
+           name="age" 
+           id="number" 
+           min="10"
+           max="99"
+           placeholder="Age" required>
+      </div>
+    <label for="anime" id="dropdown">Which option best describes Naruto?</label>
+    <div>
+    <select id="dropdown" 
+           name="anime" 
+           required>
+<option disabled selected value>Select one of the option</option>        
+ 
+      <option value="HOKAGE">HOKAGE</option>
+        <option value="IDIOT">IDIOT</option>
+        <option value="GENIN">GENIN</option>
+        <option value="HERO">HERO</option>
+        <option value="ALL OF THE ABOVE">ALL OF THE ABOVE</option>
+    </select>
+      </div>
+    <label id="recommend" required> Would you recommend Naruto to a friend?</label>
+   <div>
+    <label>
+      <input type="radio"
+             id="recommend"
+             value="Definitely"
+             name="user-recommend"
+            checked>Definitely
+    </label>
+     <div>
+     <label>
+       <input type="radio"
+               id="recommend"
+              value="Maybe"
+              name="user-recommend"
+              >Maybe
+     </label>
+       </div>
+      <label>
+        <input type="radio"
+               id="recommend"
+               value="Never"
+               name="user-recommend">Never
+      </label>
+  
+    <div>
+      <label for="jutsu">What is your favorite Jutsu of Naruto?</label>
+        </div> 
+      <select type="dropdown"
+       
+            id="jutsu">
+        <option disabled selected value>Select one of the option</option>        
+                
+
+      <option value="Kage Bunshin">Kage Bunshin</option>
+        <option value="Rasengan">Rasengan</option>
+        <option value="Harem Jutsu"(sexy)>Harem Jutsu(sexy)</option>
+        <option value="Wind Shuriken">Wind Shuriken</option>
+      </select>
+        <div>
+        <label for="character">Which Character is your favorite?</label>
+        <div id="favorite">
+          <label>
+          <input type="checkbox"
+                
+                 name="fav"
+                 Value="Naruto">Naruto
+          </label>
+          <div>
+          <label>
+            <input type="checkbox"
+                   name="fav"
+                   value="Sasuke">Sasuke
+          </label>
+            </div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="kakashi">Kakashi
+            </label>
+               <div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Jiraya">Jiraya
+            </label>
+                  </div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Hinata">Hinata
+            </label>
+                     <div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Pain">Pain
+            </label>
+                        </div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Itachi">Itachi
+            </label>
+                           <div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Madara">Madara
+            </label>
+                              </div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Tsunade">Tsunade
+            </label>
+                  <div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Gaara">Gaara
+            </label>
+                     </div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Orochimaru">Orochimaru
+            </label>
+                        <div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Shikamaru">Shikamaru
+            </label>
+                           </div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Iruka Sensei">Iruka Sensei</label>
+                              <div>
+            <label>
+              <input type="checkbox"
+                     name="fav"
+                     value="Ichiraku Ramen Guy">Ichiraku Ramen Guy
+            </label>
+       
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+               <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+             
+            
+   
+    
+  </form>
+       <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+         </html>
+         </body>

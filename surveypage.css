@@ -1,0 +1,96 @@
+body{
+ background-image: url('https://giffiles.alphacoders.com/139/13969.gif');
+ background-position:left ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#title{
+  text-align: center;
+  font-family:lobster, monospace;
+  color: orange;
+  font-size: 90px;
+  margin-bottom: 0px;
+  
+}
+#description{
+  text-align: center;
+  margin-top: 0px;
+  
+}
+#survey-form{ 
+  text-align: left;
+
+  margin-right: 400px;
+  margin-top: 100px;
+  padding-top:10px;
+  padding-bottom:500px;
+ 
+  
+}
+#name-label{
+  margin-top: 50px;
+margin-bottom:10px;
+  padding-top: 50px;
+  padding-right:500px;
+  
+}
+#email-label{
+  padding-top:50px;
+  padding-right:500px;
+  margin-bottom:10px;
+  margin-top: 50px;
+}
+#number-label{
+  padding-top: 50px;
+  padding-right:500px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  
+  
+  
+}
+#dropdown{
+  padding-right: 100px;
+  padding-top:10px;
+  margin-bottom: 30px;
+  margin-top:20px;
+  
+}
+#recommend{
+   padding-right: 500px;
+  padding-top:10px;
+  margin-bottom: 30px;
+  margin-top:30px;
+ 
+  
+}
+#jutsu{
+   padding-right: 100px;
+  padding-top:10px;
+  margin-bottom:30px;
+  margin-top:20px;
+}
+#favorite{
+  text-align:left;
+  padding-bottom:100px;
+  margin-bottom:100px;
+  padding-top:0px;
+  margin-top:20px;
+}
+#comments{
+   padding-right: 500px;
+  padding-top:20px;
+  margin-bottom: 10px;
+  padding-bottom:0px;
+}
+#submit{
+  padding-right: 50px;
+  padding-top:10px;
+  margin-bottom: 10px;
+  padding-left:50px;
+  margin-left:250px;
+  background: green;
+}
+  
+}
